@@ -1,0 +1,90 @@
+.gambar_icon img {
+    width: 20px;
+    height: 20px;
+}
+
+ .barang p{
+    color: red;
+    font-size:18pt;
+    /*font-family: ;*/
+ }
+ #nama_toko{
+    /*font-family: arial;
+    fon*/
+    padding-top: 34px;
+ }
+
+ #alamat_toko{
+    /*padding-top: 2px;*/
+    margin-top: 20px;
+ }
+ #alamat_toko p{
+    /*padding-top: 2px;*/
+    margin: 0px;
+    font-family: arial;
+ }
+ .barang img:hover{
+    transform: scale(1.03);
+
+ }
+
+ .sosial_media{
+    margin-right: 20px;
+ }
+
+
+ .rating_produk i{
+    color: orange;
+    width: 12px;
+
+ }
+
+ .menu_button{
+    color: white;
+    background-color: #5FD367;
+ }
+
+ /* Hide the browser's default radio button */
+ .container_radio input {
+     position: absolute;
+     opacity: 0;
+     cursor: pointer;
+ }
+
+ /* Create a custom radio button */
+ .checkmark {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 20px;
+     width: 20px;
+     background-color: #eee;
+     border-radius: 50%;
+ }
+
+ /* On mouse-over, add a grey background color */
+ .container_radio:hover input ~ .checkmark {
+     background-color: #ccc;
+ }
+
+ /* When the radio button is checked, add a blue background */
+ .container_radio input:checked ~ .checkmark {
+     background-color: #2196F3;
+ }
+
+ /* Create the indicator (the dot/circle - hidden when not checked) */
+ .checkmark_radio:after {
+     content: "";
+     position: absolute;
+     display: none;
+ }
+
+ /* Show the indicator (dot/circle) when checked */
+ .container_radio input:checked ~ .checkmark:after {
+     display: block;
+ }
+
+
+ body{
+    background-color: red;
+ }
